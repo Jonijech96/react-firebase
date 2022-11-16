@@ -1,7 +1,7 @@
 import { auth } from "../firebase/credenciales";
 import { signOut } from "firebase/auth";
 
-async function logOut() {
+export default async function logOut() {
   try {
     await signOut(auth);
   } catch (error) {

@@ -7,8 +7,8 @@ const firebaseConfig = {
   projectId: "proyectofacilito-4f329",
   storageBucket: "proyectofacilito-4f329.appspot.com",
   messagingSenderId: "960453744990",
-  appId: "1:960453744990:web:fcf0d845341c02401557cf",
-};
+  appId: "1:960453744990:web:fcf0d845341c02401557cf"
+}
 
 const firebaseApp = initializeApp(firebaseConfig);
 export const auth = getAuth(firebaseApp);
